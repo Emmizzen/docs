@@ -12,7 +12,9 @@
     "test": "npm run lint",
     "update-mdx-meta": "node scripts/update-mdx-meta",
     "prettier": "prettier --write \"**/*.{js,json,md,mdx}\"",
-    "docs-index": "node ./scripts/index-docs.js"
+    "docs-index": "node ./scripts/index-docs.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "0.3.0",
@@ -67,7 +69,8 @@
     "unist-util-find-all-between": "1.0.2",
     "unist-util-map": "^1.0.4",
     "unist-util-select": "1.5.0",
-    "unist-util-visit": "1.4.0"
+    "unist-util-visit": "1.4.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-eslint": "8.2.3",
@@ -151,5 +154,6 @@
       "react/jsx-no-target-blank": 0,
       "react/no-string-refs": 0
     }
-  }
+  },
+  "snyk": true
 }
