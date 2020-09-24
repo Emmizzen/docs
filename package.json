@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "@mapbox/rehype-prism": "0.3.0",
-    "@mdx-js/loader": "0.15.5",
+    "@mdx-js/loader": "0.16.0",
     "@mdx-js/mdx": "0.15.5",
-    "@mdx-js/tag": "0.15.0",
+    "@mdx-js/tag": "0.16.0",
     "@sindresorhus/slugify": "0.6.0",
     "@skidding/react-codemirror": "1.0.2",
     "@zeit/next-mdx": "1.2.0",
