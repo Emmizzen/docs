@@ -53,7 +53,7 @@
     "react-dom": "16.8.4",
     "react-instantsearch-dom": "5.4.0",
     "react-markdown": "4.0.6",
-    "refractor": "2.8.0",
+    "refractor": "4.2.0",
     "rehype": "7.0.0",
     "remark": "10.0.1",
     "remark-mdx": "0.20.3",
@@ -66,7 +66,7 @@
     "unist-util-find-all-before": "2.0.2",
     "unist-util-find-all-between": "1.0.2",
     "unist-util-map": "^1.0.4",
-    "unist-util-select": "1.5.0",
+    "unist-util-select": "3.0.3",
     "unist-util-visit": "1.4.0"
   },
   "devDependencies": {
